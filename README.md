@@ -1,0 +1,1 @@
+AI Life Coach An AI-powered virtual life coach that provides personalized guidance, motivation, and actionable advice to help users achieve their goals and improve their lives. This project uses cutting-edge natural language processing (NLP) and machine learning to deliver meaningful conversations and tailored recommendations.
