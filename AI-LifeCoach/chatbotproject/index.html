@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Coach AI</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="chat-container">
+        <div class="chat-header">
+          <h1>🧘‍♂️ Life Coach AI</h1>
+          <p>Your personal AI life coach and mentor</p>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+          <div class="message bot">
+            Hello! I'm your AI Life Coach. I'm here to help you achieve your goals and live your best life. What would you like to discuss today?
+          </div>
+        </div>
+        <div class="chat-input-container">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your message here..."
+            autocomplete="off"
+          />
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
